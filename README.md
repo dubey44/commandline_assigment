@@ -1,0 +1,1 @@
+This is my command line assignment.For each question these is a seperate file.
