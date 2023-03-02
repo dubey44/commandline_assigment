@@ -17,7 +17,7 @@ check_prime(){
        count=1
     fi
   done
-  if [ $count -eq 1 ] | [ $num -eq 1 ]
+  if ([ $count -eq 1 ] || [ $num -eq 1 ])
   then
      echo "The given number $num is not a prime number "
   else
